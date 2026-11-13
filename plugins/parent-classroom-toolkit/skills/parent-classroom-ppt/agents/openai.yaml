@@ -1,0 +1,4 @@
+interface:
+  display_name: "家长进课堂课件制作"
+  short_description: "按四格选题、课堂互动与视觉规范制作PPT、逐字稿及配套资料"
+  default_prompt: "用 $parent-classroom-ppt 制作家长进课堂课件，先核对选题四格和已有确认，再按步骤推进。"

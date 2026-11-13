@@ -1,0 +1,27 @@
+{
+  "workspace_root": ".",
+  "audit_date": null,
+  "case_role": null,
+  "sales_version_confirmation": {
+    "confirmed_by_user": false,
+    "evidence": null
+  },
+  "baseline": {
+    "pptx": null,
+    "expected_sha256": null,
+    "transcript": null,
+    "delivery_folder": null,
+    "content": null,
+    "manifest": null,
+    "images": null,
+    "zip": null,
+    "extracted_copy": null
+  },
+  "promo_direct_exports": [],
+  "require_two_blank_lines": true,
+  "timing_rates": [
+    180,
+    160,
+    150
+  ]
+}

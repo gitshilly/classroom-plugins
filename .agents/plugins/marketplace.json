@@ -1,0 +1,20 @@
+{
+  "name": "my-classroom-plugins",
+  "interface": {
+    "displayName": "我的课堂插件仓库"
+  },
+  "plugins": [
+    {
+      "name": "parent-classroom-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/parent-classroom-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

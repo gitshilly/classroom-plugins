@@ -1,0 +1,2 @@
+# Only required for local delivery checks; not automatically installed.
+Pillow>=10.0

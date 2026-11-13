@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "parent-classroom-toolkit",
+  "version": "1.0.0",
+  "description": "家长进课堂PPT制作、质量验收与交付工作流",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "家长课堂制作与交付",
+        "shortDescription": "从选题、课堂设计到课件验收与教学包交付的双技能工作流",
+        "longDescription": "包含家长进课堂课件制作、课堂课件验收与交付两套技能，以及工作单、质量清单和本地文件核验脚本。文件检查不替代事实核验、放映验证或真实课堂反馈。",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "用家长进课堂课件制作技能开始一套新课，先核对选题四格。",
+          "用课堂课件验收与交付技能检查这套PPT及对应逐字稿，分别报告通过项和未验证项。"
+        ]
+      }
+    }
+  }
+}

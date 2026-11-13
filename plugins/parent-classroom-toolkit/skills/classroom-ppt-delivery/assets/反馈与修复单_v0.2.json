@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.2",
+  "updated": "2026-11-13",
+  "validation_level": "试行模板；记录真实反馈，不自动发送消息、承诺效果或替换在售资料。",
+  "id": null,
+  "received_date": null,
+  "source": {
+    "type": null,
+    "type_options": ["创作者意见", "买家报告", "实际课堂观察", "文件检查", "待验证假设"],
+    "original_statement": null,
+    "evidence_path": null
+  },
+  "product": {
+    "title": null,
+    "reported_version": null,
+    "actual_file_path_or_hash": null,
+    "page_or_activity": null,
+    "version_confirmed": false
+  },
+  "triage": {
+    "category": null,
+    "category_options": ["文件故障", "知识或图像", "课堂可用性", "视觉偏好", "展示不一致", "非产品因素", "待分类"],
+    "observed_issue": null,
+    "impact": null,
+    "reproduction_status": "未复现",
+    "reproduction_steps_and_environment": null,
+    "evidence": [],
+    "is_release_blocker": null,
+    "reason": null
+  },
+  "repair": {
+    "authorized_scope": null,
+    "authorization_evidence": null,
+    "baseline_hash": null,
+    "proposed_action": null,
+    "return_to_stage": null,
+    "affected_files": [],
+    "candidate_version": null,
+    "recheck_method": null,
+    "recheck_result": "未检查",
+    "recheck_evidence": []
+  },
+  "release_and_followup": {
+    "decision": "待处理",
+    "actually_released_version": null,
+    "buyer_contact_needed": null,
+    "contact_authorization": null,
+    "message_sent": false,
+    "actual_followup_result": null,
+    "reusable_lesson": null,
+    "closed_date": null
+  }
+}

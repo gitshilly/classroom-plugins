@@ -1,0 +1,4 @@
+interface:
+  display_name: "课堂课件验收与交付"
+  short_description: "核对课件版本与讲稿、执行分项验收并整理真实交付和反馈记录"
+  default_prompt: "用 $classroom-ppt-delivery 核验这套课件，分别列出已通过项、待处理问题和真实交付清单。"
