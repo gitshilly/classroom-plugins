@@ -1,0 +1,256 @@
+{
+  "schema_version": "0.3",
+  "updated": "2026-11-18",
+  "validation_level": "试行模板；工作单字段不等于已实现自动执行。文件工具迁移不代表全链AI制课已验证。",
+  "fill_rules": [
+    "先填写工作类型、授权范围和实际输入版本，再决定适用阶段；不得用文件修改时间自行认定在售版本。",
+    "新课件的四格均经用户回答或明确确认，且保存选题四格卡.md后，才可展开完整大纲、样张、PPT和配套商品素材。",
+    "既有课件局部修正或技术核对可标四格不适用并写原因；主题或购买人群实质变化时重新确认受影响格子。",
+    "每项检查绑定实际文件或页码与证据；未检查、未实测和不适用都不能填通过。",
+    "按当次明确指令调整验收范围时，记录原话、范围、替代证据和剩余限制，不自动变成其他任务的默认例外。",
+    "新课的投入检查与四格合并，沿用card_path记录依据、AI建议和用户推进决定；固定质量标准不重复询问，AI检查与用户最终验收分开。"
+  ],
+  "work": {
+    "type": null,
+    "type_options": [
+      "新课制作",
+      "既有课件局部修改",
+      "既有课件技术核对",
+      "流程迁移研究",
+      "商品展示",
+      "反馈修复"
+    ],
+    "authorized_scope": null,
+    "authorization_evidence": null,
+    "output_directory": null,
+    "applicable_rule_files": []
+  },
+  "project": {
+    "title": null,
+    "lesson_type": null,
+    "buyer": null,
+    "audience": null,
+    "use_scene": null,
+    "speaker_role": null,
+    "target_minutes": null,
+    "learning_outcome": null,
+    "demand_evidence": [],
+    "unknowns": []
+  },
+  "topic_gate": {
+    "applicable": null,
+    "not_applicable_reason": null,
+    "answers": {
+      "topic": null,
+      "buyer_and_scene": null,
+      "memorable_hook": null,
+      "easy_participation": null
+    },
+    "user_confirmed_keys": [],
+    "confirmation_evidence": [],
+    "card_path": null,
+    "status": "待判断适用性",
+    "new_course_pass_condition": "四项均有明确答案，user_confirmed_keys包含四个键，confirmation_evidence可追溯，card_path指向已保存的选题四格卡.md；任何一项未满足则只做选题讨论。 并记录用户推进决定及依据；市场证据不足须披露，但不自动否定用户确认的有限投入。",
+    "investment_review": {
+      "demand_evidence_refs": [],
+      "unknowns": [],
+      "reuse_and_difference": null,
+      "new_work_and_effort_basis": null,
+      "rework_risk": null,
+      "ai_recommendation": null,
+      "recommendation_reason": null,
+      "user_decision": null,
+      "investment_boundary": null,
+      "decision_evidence": null
+    }
+  },
+  "baseline": {
+    "version": null,
+    "pptx_path": null,
+    "pptx_sha256": null,
+    "role": null,
+    "role_options": [
+      "用户确认在售版本",
+      "仅技术研究样本",
+      "待确认版本",
+      "新课候选版"
+    ],
+    "confirmed_by_user": false,
+    "confirmation_evidence": null,
+    "preserve": [],
+    "allowed_changes": [],
+    "other_input_files": []
+  },
+  "visual_system": {
+    "reference_files": [],
+    "sales_reference_library_pages_and_mechanisms": [],
+    "font_and_hierarchy": null,
+    "color_roles": null,
+    "illustration_features": null,
+    "layout_anchors": [],
+    "do_not_change": [],
+    "confirmation_evidence": null
+  },
+  "claims": [
+    {
+      "claim_id": null,
+      "page_ids": [],
+      "statement": null,
+      "applicable_scope": null,
+      "source_url_or_file": null,
+      "source_locator": null,
+      "checked_date": null,
+      "evidence_summary": null,
+      "status": "未检查",
+      "image_features_to_check": [],
+      "image_check_status": "未检查",
+      "asset_usage_evidence": null
+    }
+  ],
+  "page_tasks": [
+    {
+      "page_id": null,
+      "current_page_number": null,
+      "title": null,
+      "learning_goal": null,
+      "visible_text": null,
+      "claim_ids": [],
+      "image_source": null,
+      "layout": null,
+      "interaction": {
+        "observe": null,
+        "question": null,
+        "participation": null,
+        "response": null,
+        "reveal_method": null,
+        "fallback": null
+      },
+      "notes": null,
+      "timing": {
+        "budget_seconds": null,
+        "spoken_hanzi": null,
+        "activity_seconds": null,
+        "feedback_reserve_seconds": null,
+        "transition_seconds": null,
+        "estimate_scenarios": [],
+        "actual_trial_record": null
+      },
+      "safety_and_stop_conditions": [],
+      "validation": {
+        "file": "未检查",
+        "fact": "未检查",
+        "image_fact": "未检查",
+        "visual": "未检查",
+        "slideshow": "未实测",
+        "rehearsal": "未实测",
+        "classroom": "未实测"
+      }
+    }
+  ],
+  "stages": [
+    {
+      "stage_id": null,
+      "name": null,
+      "applicable": null,
+      "input_versions": [],
+      "required_prior_evidence": [],
+      "output_files": [],
+      "checks": [],
+      "status": "未检查",
+      "evidence": [],
+      "issues": [],
+      "return_to_stage_if_failed": null,
+      "next_allowed_action": null
+    }
+  ],
+  "stage_order": [
+    "选题与范围",
+    "知识与图像依据",
+    "课堂与互动",
+    "视觉与代表页",
+    "PPT与资料",
+    "成品验收与打包",
+    "真实商品展示",
+    "反馈与迭代"
+  ],
+  "acceptance": {
+    "scope": null,
+    "pptx_sha256": null,
+    "checks": {
+      "file_consistency": {
+        "status": "未检查",
+        "evidence": []
+      },
+      "knowledge_and_image_facts": {
+        "status": "未检查",
+        "evidence": []
+      },
+      "final_ppt_render_and_visual": {
+        "status": "未检查",
+        "evidence": []
+      },
+      "slideshow_and_reveal": {
+        "status": "未实测",
+        "evidence": []
+      },
+      "interactive_text_editing": {
+        "status": "未实测",
+        "evidence": []
+      },
+      "timing_estimate": {
+        "status": "未检查",
+        "evidence": []
+      },
+      "timed_rehearsal": {
+        "status": "未实测",
+        "evidence": []
+      },
+      "classroom_and_projection": {
+        "status": "未实测",
+        "evidence": []
+      }
+    },
+    "scope_exceptions": [],
+    "scope_exception_fields": [
+      "date",
+      "user_instruction",
+      "affected_checks_and_pages",
+      "alternative_evidence",
+      "remaining_limitations"
+    ],
+    "unresolved_issues": [],
+    "decision": "未判定",
+    "decision_reason": null,
+    "user_final_acceptance": {
+      "status": "待用户验收",
+      "evidence": null,
+      "accepted_version_sha256": null
+    }
+  },
+  "release": {
+    "candidate_version": null,
+    "files": [],
+    "render_receipt": null,
+    "overview": null,
+    "consistency_report": null,
+    "promo_image_mapping": [],
+    "release_status": "未发布",
+    "replacement_or_publish_authorization": null,
+    "actually_delivered_version": null,
+    "delivery_evidence": null
+  },
+  "feedback": {
+    "record_files": [],
+    "unresolved_ids": [],
+    "last_reviewed": null
+  },
+  "progress": {
+    "current_stage": null,
+    "completed_with_evidence": [],
+    "needs_revision": [],
+    "blocked_dependencies": [],
+    "not_tested": [],
+    "next_action": null,
+    "last_updated": null
+  }
+}

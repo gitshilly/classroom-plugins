@@ -2,10 +2,10 @@
 
 一个可安装插件，包含两套配合使用的技能：
 
-- **家长进课堂课件制作**（parent-classroom-ppt）：选题四格、事实依据、课堂互动、视觉方案、整套制作、逐字稿及教学资料。
+- **家长进课堂课件制作**（parent-classroom-ppt）：投入判断与四格确认、多轮共创、事实依据、课堂互动、视觉方案、整套制作、逐字稿及教学资料。
 - **课堂课件验收与交付**（classroom-ppt-delivery）：版本配对、备注/TXT核对、页面与教学包清单、真实商品展示及反馈修复。
 
-插件版本：1.0.0。插件名：parent-classroom-toolkit。仓库目录源名称：my-classroom-plugins。
+插件版本：1.1.0。插件名：parent-classroom-toolkit。仓库目录源名称：my-classroom-plugins。
 
 ## 换电脑安装
 
@@ -32,7 +32,7 @@ codex plugin add parent-classroom-toolkit@my-classroom-plugins
 
 直接对 Codex 说：
 
-> 用“家长进课堂课件制作”制作新课，先核对选题四格；制作完成后接续“课堂课件验收与交付”。
+> 用“家长进课堂课件制作”制作新课，先整理投入检查和选题四格，只追问关键缺口，确认后再做框架与样张；制作完成后接续“课堂课件验收与交付”。
 
 或：
 

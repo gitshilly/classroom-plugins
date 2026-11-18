@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "parent-classroom-toolkit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "家长进课堂PPT制作、质量验收与交付工作流",
   "extensions": {
     "com.openai": {
@@ -15,7 +15,7 @@
           "Write"
         ],
         "defaultPrompt": [
-          "用家长进课堂课件制作技能开始一套新课，先核对选题四格。",
+          "用家长进课堂课件制作技能开始新课，先合并整理投入检查与选题四格，确认后多轮共创。",
           "用课堂课件验收与交付技能检查这套PPT及对应逐字稿，分别报告通过项和未验证项。"
         ]
       }
