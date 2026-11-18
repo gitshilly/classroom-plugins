@@ -2,10 +2,10 @@
 
 一个可安装插件，包含两套配合使用的技能：
 
-- **家长进课堂课件制作**（parent-classroom-ppt）：投入判断与四格确认、多轮共创、事实依据、课堂互动、视觉方案、整套制作、逐字稿及教学资料。
-- **课堂课件验收与交付**（classroom-ppt-delivery）：版本配对、备注/TXT核对、页面与教学包清单、真实商品展示及反馈修复。
+- **家长进课堂课件制作**（parent-classroom-ppt）：投入判断与四格确认、多轮共创、事实依据、课堂互动、视觉方案、整套制作、独立教案、逐字稿及教学资料。
+- **课堂课件验收与交付**（classroom-ppt-delivery）：版本配对、备注/TXT核对、教案/PPT/讲稿对应、页面与教学包清单、真实商品展示及反馈修复。
 
-插件版本：1.1.0。插件名：parent-classroom-toolkit。仓库目录源名称：my-classroom-plugins。
+插件版本：1.2.0。插件名：parent-classroom-toolkit。仓库目录源名称：my-classroom-plugins。
 
 ## 换电脑安装
 
