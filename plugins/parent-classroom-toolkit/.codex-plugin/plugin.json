@@ -1,6 +1,6 @@
 {
   "name": "parent-classroom-toolkit",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "家长进课堂PPT制作、质量验收与交付工作流",
   "skills": "./skills/",
   "interface": {
